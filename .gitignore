@@ -1,0 +1,52 @@
+# Compiled class file
+*.class
+
+# Log file
+*.log
+data
+
+# BlueJ files
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+*.idea
+*.fleet
+
+### IntelliJ IDEA ###
+logs
+.idea
+*.iws
+*.iml
+*.ipr
+log.*
+
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+/doc/manage-api-doc.html
+/rebel.xml
+/*/*/*/*/*/rebel.xml
+/*/*/*/*/rebel.xml
+/*/target/
+/*/*/target/
+/**/rebel-remote.xml
+/*.iml
+/*/*.iml
+/*/*/*.iml
+
+# MAC
+.DS_Store
+/**/.DS_Store
+/.fastRequest/
+
+### vscode ###
+.vscode

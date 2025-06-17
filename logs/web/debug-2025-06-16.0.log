@@ -1,0 +1,40 @@
+2025-06-16 17:12:08.774 [main] DEBUG cn.ruleengine.web.WebApp -[]- Running with Spring Boot v2.2.11.RELEASE, Spring v5.2.10.RELEASE
+2025-06-16 17:14:22.694 [main] DEBUG cn.ruleengine.compute.ComputeApp -[]- Running with Spring Boot v2.2.11.RELEASE, Spring v5.2.10.RELEASE
+2025-06-16 17:14:28.545 [main] DEBUG cn.ruleengine.web.WebApp -[]- Running with Spring Boot v2.2.11.RELEASE, Spring v5.2.10.RELEASE
+2025-06-16 17:15:34.574 [main] DEBUG cn.ruleengine.web.WebApp -[]- Running with Spring Boot v2.2.11.RELEASE, Spring v5.2.10.RELEASE
+2025-06-16 17:19:57.714 [main] DEBUG cn.ruleengine.web.WebApp -[]- Running with Spring Boot v2.2.11.RELEASE, Spring v5.2.10.RELEASE
+2025-06-16 17:22:12.036 [main] DEBUG cn.ruleengine.web.WebApp -[]- Running with Spring Boot v2.2.11.RELEASE, Spring v5.2.10.RELEASE
+2025-06-16 17:24:41.352 [main] DEBUG cn.ruleengine.web.WebApp -[]- Running with Spring Boot v2.2.11.RELEASE, Spring v5.2.10.RELEASE
+2025-06-16 17:25:44.714 [main] DEBUG cn.ruleengine.web.WebApp -[]- Running with Spring Boot v2.2.11.RELEASE, Spring v5.2.10.RELEASE
+2025-06-16 17:26:16.792 [main] DEBUG cn.ruleengine.compute.ComputeApp -[]- Running with Spring Boot v2.2.11.RELEASE, Spring v5.2.10.RELEASE
+2025-06-16 17:26:17.680 [main] DEBUG c.r.c.s.mapper.RuleEngineVariableMapper.selectList -[]- ==>  Preparing: SELECT id,name,description,workspace_id,create_user_id,create_user_name,type,value_type,value,create_time,update_time,deleted FROM rule_engine_variable WHERE deleted=0
+2025-06-16 17:26:17.719 [main] DEBUG c.r.c.s.mapper.RuleEngineVariableMapper.selectList -[]- ==> Parameters: 
+2025-06-16 17:26:17.727 [main] DEBUG c.r.c.s.mapper.RuleEngineVariableMapper.selectList -[]- <==      Total: 1
+2025-06-16 17:26:17.731 [main] DEBUG c.r.c.s.mapper.RuleEngineFunctionMapper.selectList -[]- ==>  Preparing: SELECT id,name,description,executor,return_value_type,create_time,update_time,deleted FROM rule_engine_function WHERE deleted=0
+2025-06-16 17:26:17.732 [main] DEBUG c.r.c.s.mapper.RuleEngineFunctionMapper.selectList -[]- ==> Parameters: 
+2025-06-16 17:26:17.738 [main] DEBUG c.r.c.s.mapper.RuleEngineFunctionMapper.selectList -[]- <==      Total: 25
+2025-06-16 17:26:17.741 [main] DEBUG c.r.c.s.m.RuleEngineFunctionValueMapper.selectList -[]- ==>  Preparing: SELECT id,function_id,param_code,param_name,variable_id,type,value_type,value,create_time,update_time,deleted FROM rule_engine_function_value WHERE deleted=0
+2025-06-16 17:26:17.741 [main] DEBUG c.r.c.s.m.RuleEngineFunctionValueMapper.selectList -[]- ==> Parameters: 
+2025-06-16 17:26:17.742 [main] DEBUG c.r.c.s.m.RuleEngineFunctionValueMapper.selectList -[]- <==      Total: 0
+2025-06-16 17:26:17.745 [main] DEBUG c.r.c.s.m.R.selectList -[]- ==>  Preparing: SELECT id,name,code,workspace_id,create_user_id,create_user_name,value_type,description,create_time,update_time,deleted FROM rule_engine_input_parameter WHERE deleted=0
+2025-06-16 17:26:17.745 [main] DEBUG c.r.c.s.m.R.selectList -[]- ==> Parameters: 
+2025-06-16 17:26:17.746 [main] DEBUG c.r.c.s.m.R.selectList -[]- <==      Total: 1
+2025-06-16 17:26:17.759 [main] DEBUG c.r.c.s.m.R.selectList -[]- ==>  Preparing: SELECT id,general_rule_id,general_rule_code,workspace_id,workspace_code,data,status,version,create_time,update_time,deleted FROM rule_engine_general_rule_publish WHERE deleted=0 AND (status = ?)
+2025-06-16 17:26:17.760 [main] DEBUG c.r.c.s.m.R.selectList -[]- ==> Parameters: 2(Integer)
+2025-06-16 17:26:17.763 [main] DEBUG c.r.c.s.m.R.selectList -[]- <==      Total: 1
+2025-06-16 17:26:43.417 [main] DEBUG cn.ruleengine.compute.ComputeApp -[]- Running with Spring Boot v2.2.11.RELEASE, Spring v5.2.10.RELEASE
+2025-06-16 17:26:44.324 [main] DEBUG c.r.c.s.mapper.RuleEngineVariableMapper.selectList -[]- ==>  Preparing: SELECT id,name,description,workspace_id,create_user_id,create_user_name,type,value_type,value,create_time,update_time,deleted FROM rule_engine_variable WHERE deleted=0
+2025-06-16 17:26:44.358 [main] DEBUG c.r.c.s.mapper.RuleEngineVariableMapper.selectList -[]- ==> Parameters: 
+2025-06-16 17:26:44.366 [main] DEBUG c.r.c.s.mapper.RuleEngineVariableMapper.selectList -[]- <==      Total: 1
+2025-06-16 17:26:44.370 [main] DEBUG c.r.c.s.mapper.RuleEngineFunctionMapper.selectList -[]- ==>  Preparing: SELECT id,name,description,executor,return_value_type,create_time,update_time,deleted FROM rule_engine_function WHERE deleted=0
+2025-06-16 17:26:44.371 [main] DEBUG c.r.c.s.mapper.RuleEngineFunctionMapper.selectList -[]- ==> Parameters: 
+2025-06-16 17:26:44.375 [main] DEBUG c.r.c.s.mapper.RuleEngineFunctionMapper.selectList -[]- <==      Total: 25
+2025-06-16 17:26:44.378 [main] DEBUG c.r.c.s.m.RuleEngineFunctionValueMapper.selectList -[]- ==>  Preparing: SELECT id,function_id,param_code,param_name,variable_id,type,value_type,value,create_time,update_time,deleted FROM rule_engine_function_value WHERE deleted=0
+2025-06-16 17:26:44.378 [main] DEBUG c.r.c.s.m.RuleEngineFunctionValueMapper.selectList -[]- ==> Parameters: 
+2025-06-16 17:26:44.379 [main] DEBUG c.r.c.s.m.RuleEngineFunctionValueMapper.selectList -[]- <==      Total: 0
+2025-06-16 17:26:44.381 [main] DEBUG c.r.c.s.m.R.selectList -[]- ==>  Preparing: SELECT id,name,code,workspace_id,create_user_id,create_user_name,value_type,description,create_time,update_time,deleted FROM rule_engine_input_parameter WHERE deleted=0
+2025-06-16 17:26:44.381 [main] DEBUG c.r.c.s.m.R.selectList -[]- ==> Parameters: 
+2025-06-16 17:26:44.382 [main] DEBUG c.r.c.s.m.R.selectList -[]- <==      Total: 1
+2025-06-16 17:26:44.394 [main] DEBUG c.r.c.s.m.R.selectList -[]- ==>  Preparing: SELECT id,general_rule_id,general_rule_code,workspace_id,workspace_code,data,status,version,create_time,update_time,deleted FROM rule_engine_general_rule_publish WHERE deleted=0 AND (status = ?)
+2025-06-16 17:26:44.395 [main] DEBUG c.r.c.s.m.R.selectList -[]- ==> Parameters: 2(Integer)
+2025-06-16 17:26:44.397 [main] DEBUG c.r.c.s.m.R.selectList -[]- <==      Total: 1
